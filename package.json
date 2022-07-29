@@ -1,0 +1,23 @@
+{
+  "name": "gh-cache",
+  "version": "1.0.0",
+  "description": "Exploring and testing the GitHub Actions Cache API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciatph/gh-cache.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ciatph/gh-cache/issues"
+  },
+  "homepage": "https://github.com/ciatph/gh-cache#readme",
+  "dependencies": {
+    "@octokit/core": "^4.0.4",
+    "dotenv": "^16.0.1"
+  }
+}

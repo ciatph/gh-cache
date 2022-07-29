@@ -7,7 +7,6 @@ Exploring and testing the GitHub Actions Cache API.
 1. NodeJS v16.14.2
 2. GitHub repository
 3. GitHub Personal Access Token
-  - with full `repo` scope
 
 ## Installation
 
@@ -31,6 +30,10 @@ Exploring and testing the GitHub Actions Cache API.
 ### `npm start`
 
 List the the GitHub Actions caches for the `GH_REPO` repository.
+
+## References
+
+[[1]](https://docs.github.com/en/rest/actions/cache) - GitHub Actions Cache API
 
 @ciatph
 20221730
